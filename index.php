@@ -63,14 +63,14 @@ function documento(){
                     <div class='form-group' >
                         <label  class='col-lg-2 control-label'>Peso:</label>
                         <div class='col-lg-9'>
-                            <input type='text' id="idpeso" name='peso' onBlur="Peso()" placeholder='Peso' required='required' class='form-control' maxlength=30/>
+                            <input type='text' id="idpeso" name='peso' onBlur="Peso()" maxlength="3" placeholder='Peso' required='required' class='form-control' maxlength=30/>
                         </div>
                         <label  class='col-lg-1 control-label'>Kg</label>		
 					</div>
                     <div class='form-group' >
                         <label  class='col-lg-2 control-label'>Estatura:</label>
                         <div class='col-lg-9'>
-                            <input type='text' id="idtalla"name='talla' onBlur="Talla()" placeholder='Estatura' required='required' class='form-control' maxlength=30/>
+                            <input type='text' id="idtalla"name='talla' onBlur="Talla()" maxlength="4" placeholder='Estatura' required='required' class='form-control' maxlength=30/>
                         </div>
                         <label  class='col-lg-1 control-label'>Metros</label>		
 					</div>
