@@ -11,8 +11,6 @@ class Modelo_Cliente{
 		$this->bd->conectar();
 		$this->cliente = $control_Cliente;
 	}
-		
-
 	
 	public function crear_registro(){
 

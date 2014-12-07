@@ -41,6 +41,7 @@ class Modelo_Factura{
 
 	    return $ar;
 	}
+	
 	public function getControladorFactura(){
 		return $this->factura;
 	}
