@@ -3,7 +3,7 @@
 <head>
 
 <!--Titulo pagina-->
-<title>Mi Barrio</title>
+<title>Consulta I.M.C</title>
 <!--Llamado del stilo css-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

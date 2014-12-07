@@ -5,15 +5,13 @@ class Controlador_IMC{
 	
 
 	public function Ingreso( $cedula){
-		$this-> cc = $cedula;
-		
+		$this->cc = $cedula;
 	}
-	
 	public function get_Documento(){
-		return $this-> cc;	
-	
+		return $this->cc;	
+	}
 	public function set_Documento($cedula){
-		$this-> = $cedula;
+		$this->cc = $cedula;
 	}
 
 	
