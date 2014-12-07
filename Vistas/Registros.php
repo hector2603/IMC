@@ -46,7 +46,6 @@
 </head>
 <body background="../img/bg2.jpg">
 
-<!--Comienzo de la div que contiene el form-->
 <div class="container">
 	<div class="row"><br><br><br><br>
 <?php

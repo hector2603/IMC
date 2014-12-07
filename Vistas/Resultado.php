@@ -87,7 +87,6 @@ function documento(){
 				</div>
 			</div>
 
-			<!--Fin del form, y creacion del link de recuperacion de contraseña-->
 					
 		    
 		</div>
