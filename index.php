@@ -3,7 +3,7 @@
 <head>
 
 <!--Titulo pagina-->
-<title>Mi Barrio</title>
+<title>Consulta I.M.C</title>
 <!--Llamado del stilo css-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/bootstrap.min2.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" />
 </head>
-<body background="img/bg2.jpg">
+<body>
 
 <!--Comienzo de la div que contiene el form-->
 <div class="container">
@@ -19,7 +19,7 @@
 	<div class="row">
 			<div class="intro">
 						<div class="slogan">
-			<h2><span class="text_color">ÍNDICE DE MASA CORPORAL</span> </h2>
+			<h2><span class="text_color">INDICE DE MASA CORPORAL</span> </h2>
 			</div>
 
 			<div class="col-lg-3"></div>
@@ -73,7 +73,7 @@
 								<span class="input-group-addon"><i class="fa fa-user"></i></span>
 								<input type="text" name="user" placeholder="Cedula" maxlength="15" required="required" class="form-control">
 							</div>				
-							<span >Importante: para consultar sus registros debe ingresar el numero de documento</span>
+							<span class="help-block">Importante: para consultar sus registros debe ingresar el numero de documento</span>
 						</div>		
 							<input type="submit" name="login" class="btn btn-primary " value="Consultar">
 					</div>
