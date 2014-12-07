@@ -64,6 +64,7 @@ function documento(){
                         <label  class='col-lg-2 control-label'>Peso:</label>
                         <div class='col-lg-9'>
                             <input type='text' id="idpeso" name='peso' onBlur="Peso()" placeholder='Peso' required='required' class='form-control' maxlength=30/>
+                            <span class="help-block">Importante: este campo debe tener minimo 2 caracteres de tipo numerico).</span>
                         </div>
                         <label  class='col-lg-1 control-label'>Kg</label>		
 					</div>
@@ -71,6 +72,7 @@ function documento(){
                         <label  class='col-lg-2 control-label'>Estatura:</label>
                         <div class='col-lg-9'>
                             <input type='text' id="idtalla"name='talla' onBlur="Talla()" placeholder='Estatura' required='required' class='form-control' maxlength=30/>
+                            <span class="help-block">Importante: este campo debe tener minimo 2 caracteres de tipo numerico).</span>
                         </div>
                         <label  class='col-lg-1 control-label'>Metros</label>		
 					</div>
