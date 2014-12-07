@@ -18,6 +18,7 @@ class Buscar_Registros extends modelo_Imc{
 	public function buscar_Registros($id){
 		$sql = "select * from registros WHERE cedula='$id'";
 			$registros = $this->bd->consultar($sql);
+			$ar="";
 	    for($i = 0; $row = mysql_fetch_row($registros); $i++){
 
 	        for($j = 0; $j < 4; $j++){

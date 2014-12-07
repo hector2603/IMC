@@ -10,6 +10,7 @@
 	$registros = $guardar->buscar_Registros($id_usu);
 
 	$tabla = "";
+if($registros!=""){
 
 	for($i = 0 ; $i<count($registros); $i++){
 		$tabla .= "
@@ -19,6 +20,9 @@
 					<td>".$registros[$i][3]."</td>
 				</tr>";
 	}
+}else{
+	$tabla = "<tr><td>No hay registros para esta cedula</td><td></td><td></td></tr>";
+}
 	echo $tabla;
 
 ?>
