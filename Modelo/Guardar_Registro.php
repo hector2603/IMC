@@ -2,21 +2,20 @@
 include_once 'ModeloBd.php';
 include_once 'Validacion_Datos.php';
 
-class Modelo_Cliente{
+class Guardar_Registro{
 	private $bd;		// Tipo: BD
-	private $cliente;	// Tipo: Controlador_Cliente
+	private $registro;	// Tipo: Controlador_registro
 	
-	public function __construct($control_Cliente){
+	public function __construct($control_IMC){
 		$this->bd = new BD("indice","root");
 		$this->bd->conectar();
-		$this->cliente = $control_Cliente;
+		$this->registro = $control_IMC;
 	}
 	
 	public function crear_registro(){
 
 		$sql = "INSERT INTO `registros` (`id`, `cedula`, `fecha`,`imc`) 
-			  VALUES ('".$this->cliente->get_Documento()."',
-				'".$this->registros->get_id()."',
+			  VALUES ('".$this->registros->get_id()."',
 				'".$this->registros->get_cedula()."',
 				'".$this->registros->get_fecha()."',
 				'".$this->registros->get_imc()."');";

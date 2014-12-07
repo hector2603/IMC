@@ -2,18 +2,18 @@
 include_once 'ModeloBd.php';
 include_once 'Validacion_Datos.php';
 
-class Modelo_Factura{
+class Modelo_Registros{
 	private $bd;		// Tipo: BD
-	private $factura;	// Tipo: Controlador_Factura
+	private $registro;	// Tipo: Controlador_Factura
 	
-	public function __construct($control_Factura){
+	public function __construct($control_IMC){
 		$this->bd = new BD("indice1","root");
 		$this->bd->conectar();
-		$this->factura = $control_Factura;
+		$this->registro = $control_IMC;
 	}
 	
 	// Void: Buscar los datos de la registros
-	public function buscar_Registros($id_factura){
+	public function buscar_Registros($id){
 		$sql = "";
 		$registros = $this->bd->consultar($sql);
 		if($reg=mysql_fetch_array($registros)){
@@ -41,9 +41,9 @@ class Modelo_Factura{
 
 	    return $ar;
 	}
-	
+
 	public function getControladorFactura(){
-		return $this->factura;
+		return $this->registro;
 	}
 
 	public function getNumeroFacturas(){

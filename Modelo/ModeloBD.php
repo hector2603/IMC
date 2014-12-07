@@ -1,6 +1,6 @@
 <?php
 
-class BD{
+class ModeloBD{
 	private $user = "";
 	private $pass = "";
 	private $base = "";
@@ -12,7 +12,7 @@ class BD{
 		$this->base = $baseNombre;
 	}
 	
-	
+
 	public function conectar(){
 		$this->conexion=mysql_connect("localhost",$this->user,$this->pass) 
 		  or die("Problemas en la conexion");
