@@ -145,14 +145,14 @@ function documento(){
 		    
 	</div>
 	<div class="row">
-		<div class="col-lg-3"></div>
+		<div class="col-lg-3"><a class='btn btn-primary' href='javascript:history.back()'> Volver Atrás</a> </div>
 		<div class="col-lg-6">
 			<div class="intro">
 				<div class="slogan">
 					<h4><span class="text_color">Guardar Registro</span></h4>
 				</div>
 			</div>
-				<form role ="form" action="script/Guardar.php" method="post" class="form-signin form col-md-12 center-block ">
+				<form role ="form" action="../script/Guardar.php" method="post" class="form-signin form col-md-12 center-block ">
 <?php
 			$imc = $_REQUEST['imc'];
 			echo "<input type='text' id='indice' name='imc' value=$imc maxlength='15' required='required' class='form-control hide'>";
@@ -163,7 +163,7 @@ function documento(){
 							<span class="input-group-addon"><i class="fa fa-user"></i></span>
 							<input type="text" id="docu" name="id" onBlur="documento()" placeholder="Cedula" maxlength="15" required="required" class="form-control">
 						</div>				
-						<span >Importante: para guardar sus registros debe ingresar el numero de documento</span>
+						<span >Importante: para guardar sus registros debe ingresar el numero del documento</span>
 					</div>		
 						<input type="submit" name="login" class="btn btn-primary " value="Guardar">
 				</div>

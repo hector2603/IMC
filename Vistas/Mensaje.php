@@ -25,7 +25,12 @@
 			<div class="col-lg-1 " > </div>
 			<div class="col-lg-10" >
 				<div class='alert alert-dismissable alert-success'><h1><i>Se ha Guardado el Registro</i></h1>
-			            <a class='btn btn-primary' href='javascript:history.back()'> Volver Atrás</a> 
+<?php
+			$user = $_REQUEST['user'];
+			echo "<a class='btn btn-primary' href='../Vistas/Registros.php?user=$user'> Ver Registros </a>";
+?>
+			             <br><br>
+			            <a class='btn btn-primary' href='../index.php'> Calcular un nuevo IMC</a> 
 			        </div><br>
 			</div>
 

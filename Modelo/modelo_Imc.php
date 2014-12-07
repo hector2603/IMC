@@ -14,10 +14,6 @@ class modelo_Imc{
 		 return $peso/($estatura*$estatura);
 	}
 
-
-	public function Crear_Tabla($Imc){
-		return 1;
-	}
 }	
 
 ?>

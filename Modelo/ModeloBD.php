@@ -33,14 +33,7 @@ class ModeloBD{
 			return true;
 		}else return false;
 	}
-	//(define extend-env
-	//(lambda(syms vals env)
-	//(extend-event-record) sysms vals env)
 
-	/*(define extend-evn-recursively
-	(lambda(proc-names idss bodies old-env)
-		(recursively-extend-env-record
-			proc-names idss bodies old-env)))*/
 
 	public function consultar($sql){
 		$registros = mysql_query($sql,$this->conexion) ;

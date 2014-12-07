@@ -84,13 +84,12 @@ function documento(){
 					</form>
 			</div>
 
-			<!--Fin del form, y creacion del link de recuperacion de contraseña-->
 					
 		    
 		</div>
 		</div>
 			<div class="row"><br><br> </div>
-	<div class="row">
+	<div class="row ">
 			<div class="col-lg-3"></div>
 			<div class="col-lg-6">
 				<div class="intro">
@@ -105,9 +104,9 @@ function documento(){
 		            	<div class='col-lg-9'>
 							<div class="input-group">
 								<span class="input-group-addon"><i class="fa fa-user"></i></span>
-								<input type="text" id="docu"name="user" placeholder="Cedula" onBlur="documento()" maxlength="15" required="required" class="form-control">
+								<input type="text" id="docu" name="user" placeholder="Cedula" onBlur="documento()" maxlength="15" required="required" class="form-control">
 							</div>				
-							<span >Importante: para consultar sus registros debe ingresar el numero de documento</span>
+							<span >Importante: para consultar sus registros debe ingresar el numero del documento</span>
 						</div>		
 							<input type="submit" name="login" class="btn btn-primary " value="Consultar">
 					</div>
