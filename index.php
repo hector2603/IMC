@@ -30,6 +30,7 @@
                         <label  class='col-lg-2 control-label'>Peso:</label>
                         <div class='col-lg-9'>
                             <input type='text' name='peso'  placeholder='Peso' required='required' class='form-control' maxlength=30/>
+                            <span class="help-block">Importante: este campo debe tener minimo 2 caracteres de tipo numerico.</span>
                         </div>
                         <label  class='col-lg-1 control-label'>Kg</label>		
 					</div>
@@ -37,6 +38,7 @@
                         <label  class='col-lg-2 control-label'>Estatura:</label>
                         <div class='col-lg-9'>
                             <input type='text' name='talla'  placeholder='Estatura' required='required' class='form-control' maxlength=30/>
+                            <span class="help-block">Importante: este campo debe tener minimo 2 caracteres de tipo numerico.</span>
                         </div>
                         <label  class='col-lg-1 control-label'>Metros</label>		
 					</div>
