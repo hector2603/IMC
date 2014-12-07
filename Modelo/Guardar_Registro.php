@@ -26,13 +26,10 @@ class Modelo_Cliente{
 		$salida = 0;
 		$valida = new Validacion_Datos(); // <- Para validar los tipos de datos
 		// Validacion de los minimos
-		if(!(strlen($this->registros->get_id()) >= 4))		$salida = 5;
-		elseif(!(strlen($this->registros->get_cedula()) >= 6))	$salida = 3;
-		elseif(!(strlen($this->registros->get_imc()) >= 2))	$salida = 7;
+		if(!(strlen($this->registros->get_cedula()) >= 6))		$salida = 5;
 		// Validacion de los tipos de datos (Numérico,Alfabético,Alfanumérico)
-		elseif(!($valida->is_Number($this->registros->get_id())))			$salida = 8;
 		elseif(!($valida->is_Number($this->registros->get_cedula())))		$salida = 9;
-		elseif(!($valida->is_Alphabetic($this->registros->get_imc())))		$salida = 10;
+		
 		
 
 
