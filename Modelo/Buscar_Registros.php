@@ -7,7 +7,7 @@ class Modelo_Registros{
 	private $registro;	// Tipo: Controlador_Factura
 	
 	public function __construct($control_IMC){
-		$this->bd = new BD("indice1","root");
+		$this->bd = new ModeloBD("indice1","root");
 		$this->bd->conectar();
 		$this->registro = $control_IMC;
 	}

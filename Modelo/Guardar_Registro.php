@@ -7,7 +7,7 @@ class Guardar_Registro{
 	private $registro;	// Tipo: Controlador_registro
 	
 	public function __construct($control_IMC){
-		$this->bd = new BD("indice","root");
+		$this->bd = new ModeloBD("indice","root");
 		$this->bd->conectar();
 		$this->registro = $control_IMC;
 	}
